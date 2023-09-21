@@ -1,5 +1,5 @@
 # MerkleProof Contract
-This contract is a version of [openzeppelin's MerkleProof](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/cryptography/MerkleProof.sol) write in rust to work in stellar blockchain, technical details you can [find here](https://docs.openzeppelin.com/contracts/4.x/api/utils#MerkleProof).
+This contract is a version of [openzeppelin's MerkleProof](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/cryptography/MerkleProof.sol) write in rust to work in soroban blockchain, technical details you can [find here](https://docs.openzeppelin.com/contracts/4.x/api/utils#MerkleProof).
 
 This contract checks whether a leaf is part of the merkle tree.
 
@@ -13,7 +13,7 @@ Returns true if the leaves can be simultaneously proven to be a part of a merkle
 
 ## Run on Sandbox
 
-First you need to build the contracts using the command below, then you can run the contract on [sandbox](https://soroban.stellar.org/docs/getting-started/hello-world#run-on-sandbox)
+First you need to build the contract using the command below, then you can run the contract on [sandbox](https://soroban.stellar.org/docs/getting-started/hello-world#run-on-sandbox)
 ```bash
 soroban contract build
 ```
